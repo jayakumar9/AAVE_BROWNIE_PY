@@ -1,0 +1,8 @@
+# create this file under AAVE_BROWNIE_PY
+
+
+networks:
+  kovan:
+    weth_token:'0x5F382a2B7aAdc9F5810d617741DFC2706f724845'//metamask address
+wallets:
+  from_key:${PRIVATE_KEY}
