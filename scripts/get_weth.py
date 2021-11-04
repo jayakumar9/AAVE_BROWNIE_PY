@@ -1,6 +1,7 @@
 # create this file under AAVE_BROWNIE_PY/scripts refer at video 3.solidity time 1:23:52
 
-
+frrom scripts.helpful_scripts import get_account
+from brownie import interface,config,network
 
 
 
@@ -15,4 +16,8 @@ def get_weth():
     """
     # ABI
     # Address
+    account=get_account()
+    weth=interface.IWeth(config["networks"][network.show_active()]["weth_token"]
+                         
+    
     
