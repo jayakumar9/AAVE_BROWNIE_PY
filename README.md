@@ -12,5 +12,7 @@ Testing
 
 Intergation test: Kovan
 
-Local test?
+Unit tests: mainnet-fork(mock all of mainnet!)
+
+
 
