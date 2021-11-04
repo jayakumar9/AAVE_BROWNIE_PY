@@ -1,6 +1,10 @@
 # create this file under  AAVE_BROWNIE_PY/scripts refer video 1:29:27
 
 
+from brownie import accounts,network,config
+
+LOCAL_BLOCKCHAIN_ENVIRONMENTS=["development","ganache"."hardhat",local-ganache","mainnet-fork"]
+
 def get_account(index=None,id=None):
     if index:
         return accounts[index]
