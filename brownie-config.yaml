@@ -4,5 +4,8 @@
 networks:
   kovan:
     weth_token:'0x5F382a2B7aAdc9F5810d617741DFC2706f724845'//metamask address
+    
+mainnet-fork: 
+  weth_token:'0xc0F382a2B7aAdc9F5810d617741DFC2706f724845'//rechck this address with ref.video 1:28:44
 wallets:
   from_key:${PRIVATE_KEY}
