@@ -32,7 +32,13 @@ def main():
 def get_asset_price(price_feed_Address):
     # ABI
     # Address
-    dai_eth_price_feed=interface.AggregatorV3Interface
+    dai_eth_price_feed=interface.AggregatorV3Interface(price_feed_Address)
+    latest_price=dai_eth_price_feed.latestRoundData()[1]
+    converted_latest_price=web3.fromwei(latest_price."ether")
+    print(f"The DAI/ETH price is {converted_latest_price}")
+    return float(latest_price)
+    #0.000474364251495977
+    
     
     
     
