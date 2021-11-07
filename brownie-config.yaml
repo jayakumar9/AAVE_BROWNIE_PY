@@ -14,9 +14,13 @@ networks:
     weth_token: '0x5F382a2B7aAdc9F5810d617741DFC2706f724845'//recheck this metamask address
     lending_pool_addresses_provider: '0x88757f2f99175387ab4c6a4b3067c77a695b0349'//https://docs.aave.com/developers/deployed-contracts/deployed-contracts(mainnet) video time 1:42:53
     dai_eth_price_feed: '0x22B58f1EbEDfCA50feF632bD73368b2FdA96D541' ////copied from https://docs.chain.link/docs/ethereum-addresses/(kovan testnet DAI / ETH)
+    dai_token: '0xFf795577d9AC8bD7D90Ee22b6C1703490b6512FD' copied from https://aave.github.io/aave-addresses/kovan.json - video 3.solidity time 2:11:10
+    
 mainnet-fork: 
   weth_token: '0xc0F382a2B7aAdc9F5810d617741DFC2706f724845'//rechck this address with ref.video 1:28:44
   lending_pool_addresses_provider: '0xb53c1a33016b2dc2ff3653530bff1848a515c8c5'//https://docs.aave.com/developers/deployed-contracts/deployed-contracts(mainnet) video time 1:42:45
   dai_eth_price_feed: '0x773616E4d11A78F511299002da57A0a94577F1f4' //copied from https://docs.chain.link/docs/ethereum-addresses/(Ethereum mainnet DAI / ETH)
+  dai_token: '0x6b175474e89094c44da98b954eedeac495271d0f'//copied from https://etherscan.io/token/0x6b175474e89094c44da98b954eedeac495271d0f
+  
 wallets:
   from_key:${PRIVATE_KEY}
