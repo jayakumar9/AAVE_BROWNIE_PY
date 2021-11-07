@@ -1,6 +1,13 @@
 # create this file under AAVE_BROWNIE_PY
 
 
+dependencies:
+  -aave/protocal-v2@1.0.1
+compiler:
+  solc:
+    remappings:
+      -'@aave=aave/protocal-v2@1.0.1'
+
 networks:
   kovan:
     weth_token: '0x5F382a2B7aAdc9F5810d617741DFC2706f724845'//recheck this metamask address
