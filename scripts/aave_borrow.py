@@ -25,6 +25,12 @@ def main():
     print("Deposited!")
     #....how much to borrow?
     borrowable_eth,total_debt=get_borrowable_data(lending_pool,account)
+    print("Let's borrow!")
+    # DAI in terms of ETH
+    
+    
+    
+    
     
 def get_borrowable_data(lending_pool,account):   
     (
