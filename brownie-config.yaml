@@ -9,6 +9,7 @@ compiler:
       -'@aave=aave/protocal-v2@1.0.1'
 
 networks:
+  default: mainnet-fork
   kovan:
     weth_token: '0x5F382a2B7aAdc9F5810d617741DFC2706f724845'//recheck this metamask address
     lending_pool_addresses_provider: '0x88757f2f99175387ab4c6a4b3067c77a695b0349'//https://docs.aave.com/developers/deployed-contracts/deployed-contracts(mainnet) video time 1:42:53
